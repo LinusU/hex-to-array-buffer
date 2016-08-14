@@ -1,0 +1,13 @@
+{
+  "name": "hex-to-array-buffer",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "LinusU/hex-to-array-buffer",
+  "scripts": {
+    "test": "standard && node test"
+  },
+  "devDependencies": {
+    "arraybuffer-equal": "^1.0.4",
+    "standard": "^7.1.2"
+  }
+}
