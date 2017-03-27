@@ -1,3 +1,10 @@
+/**
+ * hex-to-array-buffer - Turn a string of hexadecimal characters into an `ArrayBuffer`
+ * @version v0.1.0
+ * @license MIT
+ * @copyright Linus <linus@folkdatorn.se> Unnebäck
+ * @link https://github.com/LinusU/hex-to-array-buffer/
+ */
 (function () {
   function hexToArrayBuffer (hex) {
     if (typeof hex !== 'string') {
