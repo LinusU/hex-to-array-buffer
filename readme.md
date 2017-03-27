@@ -17,6 +17,7 @@ const hexToArrayBuffer = require('hex-to-array-buffer')
 
 Or add as a script to your web page
 ```html
+<script src="hex-to-array-buffer/index.js"></script>
 ```
 
 ```js
