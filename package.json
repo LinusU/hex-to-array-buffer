@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "license": "MIT",
   "repository": "LinusU/hex-to-array-buffer",
+  "keywords": [
+    "ArrayBuffer",
+    "conversion",
+    "hex",
+    "hexadecimal",
+    "string"
+  ],
   "scripts": {
     "test": "standard && node test"
   },
