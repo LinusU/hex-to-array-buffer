@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "arraybuffer-equal": "^1.0.4",
-    "standard": "^7.1.2"
+    "standard": "^10.0.3"
   }
 }
