@@ -3,6 +3,8 @@
   "version": "1.1.0",
   "license": "MIT",
   "repository": "LinusU/hex-to-array-buffer",
+  "type": "module",
+  "exports": "./index.js",
   "keywords": [
     "ArrayBuffer",
     "conversion",
@@ -11,10 +13,14 @@
     "string"
   ],
   "scripts": {
-    "test": "standard && node test"
+    "test": "standard && node test && ts-readme-generator --check"
   },
   "devDependencies": {
     "arraybuffer-equal": "^1.0.4",
-    "standard": "^10.0.3"
+    "standard": "^16.0.3",
+    "ts-readme-generator": "^0.5.0"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   }
 }
