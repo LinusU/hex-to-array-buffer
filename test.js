@@ -1,11 +1,11 @@
-var assert = require('assert')
-var hexToArrayBuffer = require('./')
-var isEqual = require('arraybuffer-equal')
+import assert from 'node:assert'
+import isEqual from 'arraybuffer-equal'
+import hexToArrayBuffer from './index.js'
 
 function numbersToArrayBuffer (numbers) {
-  var view = new Uint8Array(numbers.length)
+  const view = new Uint8Array(numbers.length)
 
-  for (var i = 0; i < view.length; i++) {
+  for (let i = 0; i < view.length; i++) {
     view[i] = numbers[i]
   }
 
